@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: @build.profile.active@
+server:
+  port: 8080
+  servlet:
+    context-path: /my-spring-demo
+
+# jwt≈‰÷√
+jwt:
+  secret: mysecret
+  expire: 120000 #∫¡√Î
+  token-header: Authorization
+
