@@ -6,9 +6,12 @@ server:
   servlet:
     context-path: /my-spring-demo
 
-# jwt≈‰÷√
 jwt:
   secret: mysecret
-  expire: 120000 #∫¡√Î
+  expire: 120000
   token-header: Authorization
 
+mybatis:
+  type-aliases-package: com.example.myspringdemo.entity
+  configuration:
+    map-underscore-to-camel-case: true

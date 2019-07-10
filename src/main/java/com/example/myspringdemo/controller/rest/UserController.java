@@ -1,4 +1,4 @@
-package com.example.myspringdemo.rest;
+package com.example.myspringdemo.controller.rest;
 
 import com.example.myspringdemo.annotation.LoginToken;
 import com.example.myspringdemo.annotation.PassToken;

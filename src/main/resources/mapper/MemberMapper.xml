@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.myspringdemo.mapper.MemberMapper">
+    <!--该mapper.xml与以往普通方式的mapper.xml文件不同之处在于,这里不需要使用resultMap进行字段的映射。
+    当然如果想在返回的Map中新增返回字段映射直接添加新的字段即可。-->
+</mapper>

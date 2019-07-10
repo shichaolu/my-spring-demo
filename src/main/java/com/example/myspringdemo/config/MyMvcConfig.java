@@ -13,7 +13,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * @Date: Created in 10:48 2019/7/9
  */
 @Configuration
-public class MyConfiguration {
+public class MyMvcConfig {
 
     @Bean
     public WebMvcConfigurer webMvcConfigurer() {
