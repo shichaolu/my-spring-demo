@@ -9,9 +9,9 @@ import java.util.Scanner;
 public class SpringSessionApplication {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String port = scanner.nextLine();
-        new SpringApplicationBuilder(SpringSessionApplication.class).properties("server.port=" + port).run(args);
+        //Scanner scanner = new Scanner(System.in);
+        //String port = scanner.nextLine();
+        new SpringApplicationBuilder(SpringSessionApplication.class).properties("server.port=8080").run(args);
     }
 
 }
